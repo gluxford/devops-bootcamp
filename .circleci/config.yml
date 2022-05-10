@@ -26,7 +26,7 @@ jobs:
           command: |
             cd src && npm pack
       - store_artifacts:
-          path: /src/simpletodoapp-1.0.0.tgz
+          path: ./src/simpletodoapp-1.0.0.tgz
           destination: simpletodoapp-1.0.0.tgz
 
 workflows:
